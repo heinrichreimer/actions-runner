@@ -21,7 +21,7 @@ jobs:
         context: .
         push: false
     - name: 📤 Upload artifact
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v5
       with:
         name: docker-image
         path: /tmp/docker-image.tar
